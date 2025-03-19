@@ -1,4 +1,4 @@
 from add_item import stack
 
 def test_size():
-    assert(stack.size) == 2
+    assert len(stack) == 2
